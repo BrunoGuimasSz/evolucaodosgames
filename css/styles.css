@@ -1295,6 +1295,7 @@ progress {
     width: 58.33333333%;
   }
   .col-lg-8 {
+    position: relative;
     flex: 0 0 auto;
     width: 66.66666667%;
   }
@@ -11731,4 +11732,10 @@ html {
     width: 1.5vw;
     left: -2vw;
   }
+}
+textarea {
+  resize: none;
+}
+.bg-light p-4 rounded-4 img {
+  position: relative;
 }
