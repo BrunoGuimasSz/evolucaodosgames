@@ -62,7 +62,7 @@
   --bs-border-radius-2xl: 2rem;
   --bs-border-radius-pill: 50rem;
   --bs-link-color: #1e30f3;
-  --bs-link-hover-color: #1826c2;
+  --bs-link-hover-color: rgb(170, 0, 0);
   --bs-code-color: #e21e80;
   --bs-highlight-bg: #fff3cd;
 }
@@ -371,8 +371,7 @@ select:disabled {
 
 button,
 [type=button],
-[type=reset],
-[type=submit] {
+[type=reset] {
   -webkit-appearance: button;
 }
 button:not(:disabled),
@@ -2841,7 +2840,7 @@ textarea.form-control-lg {
   --bs-btn-bg: #1e30f3;
   --bs-btn-border-color: #1e30f3;
   --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #1a29cf;
+  --bs-btn-hover-bg: rgb(170, 0, 0);
   --bs-btn-hover-border-color: #1826c2;
   --bs-btn-focus-shadow-rgb: 64, 79, 245;
   --bs-btn-active-color: #fff;
