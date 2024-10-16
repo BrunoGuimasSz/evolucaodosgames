@@ -50,9 +50,16 @@
                                         <label for="email">Email</label>
                                     </div>
                                     <div class="form-floating mb-3">
-                                        <input class="form-control" id="phone" type="tel" placeholder="(xx)xxxxx-xxxx" data-sb-validations="required" />
-                                        <label for="phone">Telefone</label>
-                                        <div class="invalid-feedback" data-sb-feedback="phone:required">Insira seu telefone</div>
+                                        <input class="form-control" id="nota" type="nota" data-sb-validations="required" />
+                                         <label for="rating">Avaliação:</label>
+                                            <select id="nota" name="nota" required>
+                                              <option value="1">1 - Ruim</option>
+                                              <option value="2">2 - Regular</option>
+                                              <option value="3">3 - Bom</option>
+                                              <option value="4">4 - Muito Bom</option>
+                                              <option value="5">5 - Excelente</option>
+                                            </select>
+                                        <div class="invalid-feedback" data-sb-feedback="nota:required">Insira sua nota</div>
                                     </div>
                                     <div class="form-floating mb-3">
                                         <textarea class="form-control" id="message" type="text" placeholder="Insira sua mensagem..." style="height: 10rem" data-sb-validations="required"></textarea>
